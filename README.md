@@ -57,12 +57,6 @@ Notes about the notebook:
 - Ensure `creditcard.csv` is in the same folder as the notebook (the notebook reads it using `pd.read_csv('creditcard.csv')`).
 - Run all cells top-to-bottom after installing dependencies.
 
-**Next Steps / Suggestions**
-- Add a `requirements.txt` by running `pip freeze > requirements.txt` in your environment.
-- Improve preprocessing (scaling, SMOTE for class imbalance), tune hyperparameters, and add cross-validation.
-- Save trained models using `joblib` or `pickle` for later inference.
-
 **License**
 - This repository does not include a license file. Add one if you plan to share or publish the code.
 
-If you'd like, I can also add a `requirements.txt`, fix the notebook install cell, or run the notebook to validate everything — tell me which you'd prefer next.
